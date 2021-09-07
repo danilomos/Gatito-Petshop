@@ -1,0 +1,30 @@
+{
+  "name": "gatito-petshop",
+  "version": "1.0.0",
+  "description": "Projeto criado com o curso Alura: NodeJS api rest padronizada e escalavel",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilomos/Gatito-Petshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilomos/Gatito-Petshop/issues"
+  },
+  "homepage": "https://github.com/danilomos/Gatito-Petshop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
